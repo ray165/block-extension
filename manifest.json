@@ -2,5 +2,5 @@
     "name": "Block Extension",
     "description": "Keep track of who you blocked and why",
     "version": "1.0",
-    "manifest_version": 1
+    "manifest_version": 3
 }
