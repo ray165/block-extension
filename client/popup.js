@@ -19,6 +19,6 @@ function setData(name, reason) {
     chrome.storage.sync.set({
         name: reason
     }, () => {
-        console.log("succesfully sent: " ,name ," and ", reason)
+        console.log("succesfully sent: ", name, " and ", reason)
     })
 }
