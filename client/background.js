@@ -15,7 +15,6 @@ const testData = [{
 }]
 
 
-
 chrome.storage.local.set({"badDude007": 
     "blocked because he's annoying"
 }, () => console.log("data sent!"))
