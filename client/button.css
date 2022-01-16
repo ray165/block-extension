@@ -61,12 +61,20 @@ button {
   font-weight: bold;
   text-align: center;
   font-style: normal;
-  border-radius: 5px;
+  /* border-radius: 50px; */
   width: 100%;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin-bottom: 10px;
+}
+
+#submitBlock {
+    background-color: #ff7e6b;
+}
+
+#submitBlock, #searchBtn {
+    border-radius: 5px;
 }
 
 fieldset {
