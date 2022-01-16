@@ -19,11 +19,11 @@ chrome.storage.local.set({"badDude007":
     "blocked because he's annoying"
 }, () => console.log("data sent!"))
 
-chrome.storage.local.get(["badDude007"], (result) => {
-    console.log(result)
+chrome.storage.local.get("badDude007", (result) => {
+    console.log(result["badDude007"])
 })
 
 // For removal
-chrome.storage.local.clear(() => {
-    console.log('Everything was removed');
-});
+// chrome.storage.local.clear(() => {
+//     console.log('Everything was removed');
+// });

@@ -6,8 +6,14 @@
     "background": {
         "service_worker": "client/background.js"
     },
-    "permissions": ["storage"],
+    "permissions": [
+        "storage"
+    ],
     "action": {
         "default_popup": "client/popup.html"
-    }
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["client/popup.js"]
+    }]
 }
