@@ -20,7 +20,7 @@ function setData(name, reason) {
     chrome.storage.local.set({
         name: reason
     }, () => {
-        console.log("succesfully sent: " , name ," and ", reason)
+        console.log("succesfully sent: ", name, " and ", reason)
     })
 }
 
